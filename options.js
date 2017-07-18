@@ -1,15 +1,15 @@
-var eslint = require('eslint')
-var path = require('path')
-var pkg = require('./package.json')
+var eslint = require("eslint");
+var path = require("path");
+var pkg = require("./package.json");
 
 module.exports = {
   bugs: pkg.bugs.url,
-  cmd: 'standard',
+  cmd: "raulistandard",
   eslint: eslint,
   eslintConfig: {
-    configFile: path.join(__dirname, 'eslintrc.json')
+    configFile: path.join(__dirname, "eslintrc.json"),
   },
   homepage: pkg.homepage,
-  tagline: 'Use JavaScript Standard Style',
-  version: pkg.version
-}
+  tagline: "Rauli's standard JavaScript style guide",
+  version: pkg.version,
+};
